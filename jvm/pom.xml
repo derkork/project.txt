@@ -88,7 +88,7 @@
                             <goal>antlr4</goal>
                         </goals>
                         <configuration>
-                            <sourceDirectory>${project.basedir}/../shared/</sourceDirectory>
+                            <sourceDirectory>${shared.grammar}</sourceDirectory>
                             <outputDirectory>${project.build.directory}/generated-sources/antlr/java</outputDirectory>
                         </configuration>
                     </execution>

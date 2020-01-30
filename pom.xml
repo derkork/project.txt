@@ -14,6 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <kotlin.version>1.3.61</kotlin.version>
+        <!--  Location of the ANTLR grammar files -->
+        <shared.grammar>${project.basedir}/../common/src/main/antlr4</shared.grammar>
     </properties>
 
     <modules>

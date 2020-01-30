@@ -70,7 +70,7 @@
                             <goal>antlr4</goal>
                         </goals>
                         <configuration>
-                            <sourceDirectory>${project.basedir}/../shared/</sourceDirectory>
+                            <sourceDirectory>${shared.grammar}</sourceDirectory>
                             <arguments>-Dlanguage=JavaScript</arguments>
                             <outputDirectory>${project.build.directory}/generated-sources/antlr</outputDirectory>
                         </configuration>
